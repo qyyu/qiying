@@ -1,0 +1,137 @@
+.bg2{
+	height:124px;
+	background:url(../images/head-bg.gif) repeat-x;
+}
+.box3{
+	width:1150px;
+	position:relative;
+	margin:0 auto;
+	height:90px;
+}
+
+.logo{
+	width:287px;   
+	height:67px;
+	margin:12px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.box3-r{
+	width:500px;
+	margin:34px 0px;
+	height:20px;
+	font-size:14px;
+	text-align:right;
+	position:absolute;
+	right:0px;
+	top:0px;
+}
+.box3-r span{
+	padding-left:54px;
+	height:20px;
+	line-height:20px;
+}
+.box3-r span a {
+	color:#fff;
+}
+.box3-r span a:hover{
+	color:#ffff00;
+}
+.box3-r .a1{ 
+	padding-left:25px;
+	background-image:url(../images/xue.png);
+	background-position:0 -38px;
+	background-repeat:no-repeat;
+}
+.box3-r .a2{ 
+	padding-left:25px;
+	background-image:url(../images/xue.png);
+	background-position:0 -57px;
+	background-repeat:no-repeat;
+}
+.box3-r .a3{ 
+	padding-left:25px;
+	background-image:url(../images/xue.png);
+	background-position:0 -76px;
+	background-repeat:no-repeat;
+}
+.box3-r .a4{ 
+	padding-left:25px;
+	background-image:url(../images/xue.png);
+	background-position:0 -95px;
+	background-repeat:no-repeat;
+}
+
+.bg3 {
+    width: 1150px;
+    margin: 0 auto;
+    height: 34px;}
+#nav{
+	font-size:16px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+#nav li {
+    FONT-SIZE: 16px;
+    WIDTH: 104px;
+    DISPLAY: block;
+    HEIGHT: 34px;
+    LINE-HEIGHT: 34px;
+    float: left;
+    text-align: center;
+    font-weight: normal;
+    position: relative;
+    cursor: pointer;
+    z-index: 999;
+}
+#nav a {
+	color:#ffffff;
+}
+#nav ul{
+    list-style: none;
+    z-index: 909;
+    width: 1110px;
+    position: absolute;
+    top: 34px;
+    padding: 20px;
+    background: url(../images/nav-erji-bg.png) repeat;
+    margin: 0 auto;
+}
+#nav .nav-erji{
+	display:block; 
+	width:1110px; 
+	min-height:200px;
+}
+#nav .nav-left-list{ 
+	width:440px;
+	float:left;
+ }
+#nav .nav-left-list .nav-li{
+	height:48px;
+	line-height:48px;
+	margin:0 5px; 
+	float:left;
+	border-bottom:1px solid #c8cccd;
+	display:inline;
+	font-size:14px;
+	background:url(../images/nav-list-left-list.png)no-repeat 5px center;
+	padding-left:20px; 
+	text-align:left;
+}
+#nav .nav-left-list .nav-li a{
+	color:#5e605f;
+}
+#nav .nav-left-list .nav-li a:hover{
+	color:#f90000;
+}
+#nav .nav-left-list .nav-li1{
+	width:120px;
+}
+#nav .nav-right{ 
+	width: 510px; 
+	height:160px;
+	margin:25px 10px;
+	float: right;
+}

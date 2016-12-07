@@ -1,0 +1,72 @@
+body{
+	margin:0px;
+	padding:0px;
+	border:0px;
+	font-family:"微软雅黑";
+	font-size:14px;
+	-webkit-font-smoothing:antialiased;
+	background-color:#f9f7f8;
+	min-width:1150px;
+}
+.auto{
+	margin:0px auto;
+}
+.width{
+	width:1150px;
+}
+.bg1{
+	height:30px;
+	background:#323232;
+	line-height:30px;
+}
+.bg1 .box1{
+	width:400px;
+	float:left;
+}
+.bg1 .box1 li a{
+	color:#c0bcb3;
+	float: left;
+	margin-left:13px;
+	width: 80px;	
+	text-indent:20px; 
+	height:30px; 
+	line-height:30px;
+}
+.bg1 .box1 li a:hover{
+	color:#00a6ad;
+}
+.bg1 .box2{
+	width:400px;
+	float:right;
+}
+.bg1 .box2 span{
+	padding-right:13px;
+	margin-right:13px;
+}
+.bg1 .box2 span a{
+	color:#c0bcb3;
+}
+.bg1 .box2 span a:hover{
+	color:#00a6ad;
+}
+.bg1 .box2 .map{ 
+	margin-right:1px;
+	background-image:url(../images/xue.png);
+}
+.bg1 .box2 .en{ 
+    margin-right:0px;
+	background-image:url(../images/xue.png);
+	background-position:0 -19px;
+}
+a{
+	text-decoration:none;
+}
+ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+.clear{
+	clear:both;
+}
+

@@ -1,0 +1,58 @@
+.bg3 {
+    width: 1150px;
+    margin: 0 auto;
+    height: 34px;}
+#nav{
+	font-size:16px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+#nav li {
+    FONT-SIZE: 16px;
+    WIDTH: 104px;
+    DISPLAY: block;
+    HEIGHT: 34px;
+    LINE-HEIGHT: 34px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    z-index: 999;
+}
+#nav li a {
+	color:#ffffff;
+}
+#nav li a:hover{
+	color:#ba0;
+}
+#nav .nav-left-list{ 
+	width:440px;
+	float:left;
+ }
+#nav.nav-li{
+	height:48px;
+	line-height:48px;
+	margin:0 5px; 
+	float:left;
+	border-bottom:1px solid #c8cccd;
+	display:inline;
+	font-size:14px;
+	background:url(../images/nav-list-left-list.png)no-repeat 5px center;
+	padding-left:20px; 
+	text-align:left;
+}
+#nav.nav-li{
+	color:#5e605f;
+}
+#nav.nav-li a:hover{
+	color:#f90000;
+}
+#nav .nav-left-list .nav-inline{
+	width:120px;
+}
+#nav .nav-right{ 
+	width: 510px; 
+	height:160px;
+	margin:25px 10px;
+	float: right;
+}

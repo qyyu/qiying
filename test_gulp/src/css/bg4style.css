@@ -1,0 +1,63 @@
+.bg4{
+	position:relative;
+	width:100%;
+	overflow:hidden;
+}
+.ban{
+	width:1150px;
+	height:390px;
+	margin:0 auto;
+	overflow:hidden;
+	position:relative;
+}
+#pic{
+	cursor: pointer;
+	border:0px;
+	width:1150px;
+	height:390px;
+}
+.bottom-r{
+	width:1150px;
+	height:19px;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	width:140px;
+}
+#bottom-num{
+	display:flex;
+	justify-content:space-between;
+	height:19px;
+	width:140px;
+}
+#bottom-num p{
+	width:30px;	
+	background-color:#666;
+	margin:0;
+	color:#fff;
+	font-size:15px;
+    font-family: 微软雅黑;
+	cursor:pointer;
+}
+#bottom-num  p:hover{
+	background-color:#999;	
+}
+.bottom-l{
+	overflow:hidden;
+	position:relative;left :10px;
+	text-align:left;
+	top:-40px;
+	height:40px;
+	line-height:40px;
+	width:640px;
+	padding:0px 30px;
+}
+.word{
+	line-height: 20px; 
+	height: 40px;
+	color: #fff; 
+	position: relative;left:30px;
+	font-size: 18px; 
+	overflow: hidden; 
+	text-decoration: none;
+}
